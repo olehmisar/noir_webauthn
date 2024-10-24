@@ -22,7 +22,7 @@ In your _Nargo.toml_ file, add the version of this library you would like to ins
 
 ```toml
 [dependencies]
-webauthn = { tag = "v0.35.0", git = "https://github.com/olehmisar/noir_webauthn" }
+webauthn = { tag = "v0.36.0", git = "https://github.com/olehmisar/noir_webauthn" }
 ```
 
 <details>
@@ -30,7 +30,7 @@ webauthn = { tag = "v0.35.0", git = "https://github.com/olehmisar/noir_webauthn"
 Note on version compatibility with Noir
 </summary>
 
-The version of this library matches the version of Noir. The patch version may be different if a bugfix or a new feature is added for the same version of Noir. E.g., this library version v0.35.0 and this library version v0.35.1 are compatible with noir@v0.35.0.
+The version of this library matches the version of Noir. The patch version may be different if a bugfix or a new feature is added for the same version of Noir. E.g., this library version v0.36.0 and this library version v0.36.1 are compatible with noir@v0.36.0.
 
 </details>
 
