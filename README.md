@@ -11,7 +11,7 @@ This provides out of the box:
 Feel free to use this template as a starting point to create your own Noir libraries.
 
 --- -->
-<img align="right" width="150" height="150" top="100" src="https://github.com/user-attachments/assets/ca50c467-1bfd-485a-9351-073fb34a76da">
+<img align="right" width="150" height="150" top="100" src="https://i.ibb.co/v616BthP/379873650-ca50c467-1bfd-485a-9351-073fb34a76da.jpg">
 
 # Noir WebAuthn
 
