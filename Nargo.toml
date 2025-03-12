@@ -2,7 +2,7 @@
 name = "webauthn"
 type = "lib"
 authors = ["Oleh Misarosh <olehmisar@gmail.com"]
-compiler_version = ">=0.34.0"
 
 [dependencies]
-base64 = { git = "https://github.com/olehmisar/noir_base64/", tag = "v0.3.0" }
+base64 = { git = "https://github.com/noir-lang/noir_base64", tag = "v0.3.1" }
+nodash = { git = "https://github.com/olehmisar/nodash", tag = "v0.40.2" }
