@@ -1,7 +1,18 @@
 [package]
 name = "webauthn"
 type = "lib"
-authors = ["Oleh Misarosh <olehmisar@gmail.com"]
+description = "Webauthn/Passkeys signature verification in Noir"
+version = "0.37.0"
+authors = ["Oleh Misarosh <olehmisar@gmail.com>"]
+repository = "https://github.com/olehmisar/noir_webauthn"
+keywords = [
+  "Noir",
+  "webauthn",
+  "passkeys",
+  "authentication",
+  "secp256r1",
+  "p256",
+]
 
 [dependencies]
 base64 = { git = "https://github.com/noir-lang/noir_base64", tag = "v0.3.1" }
