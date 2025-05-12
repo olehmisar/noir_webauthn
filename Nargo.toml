@@ -2,7 +2,7 @@
 name = "webauthn"
 type = "lib"
 description = "Webauthn/Passkeys signature verification in Noir"
-version = "0.37.0"
+version = "0.37.1"
 authors = ["Oleh Misarosh <olehmisar@gmail.com>"]
 repository = "https://github.com/olehmisar/noir_webauthn"
 keywords = [
@@ -15,5 +15,5 @@ keywords = [
 ]
 
 [dependencies]
-base64 = { git = "https://github.com/noir-lang/noir_base64", tag = "v0.3.1" }
-nodash = { git = "https://github.com/olehmisar/nodash", tag = "v0.40.2" }
+base64 = { git = "https://github.com/noir-lang/noir_base64", tag = "v0.4.0" }
+nodash = { git = "https://github.com/olehmisar/nodash", tag = "v0.41.2" }

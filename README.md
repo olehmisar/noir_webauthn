@@ -23,7 +23,7 @@ In your _Nargo.toml_ file, add the version of this library you would like to ins
 
 ```toml
 [dependencies]
-webauthn = { tag = "v0.37.0", git = "https://github.com/olehmisar/noir_webauthn" }
+webauthn = { tag = "v0.37.1", git = "https://github.com/olehmisar/noir_webauthn" }
 ```
 
 ## Usage

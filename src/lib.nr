@@ -14,7 +14,7 @@ pub fn verify_signature<let CLIENT_DATA_JSON_MAX_LEN: u32, let AUTHENTICATOR_DAT
         concat(authenticator_data, client_data_json_hash);
     let hashed_message = nodash::sha256(concatenated);
 
-    let challenge_base64_url: [u8; 43] = base64::BASE64_URL_ENCODER.encode(challenge);
+    let challenge_base64_url: [u8; 43] = base64::BASE64_URL_ENCODER::encode(challenge);
     str_contains_base64_url(
         client_data_json.storage(),
         challenge_base64_url,
